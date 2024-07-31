@@ -1,2 +1,2 @@
 # HealthHubBlazor
-creating an testing project to learn blazor stuff
+creating a testing project to learn blazor stuff

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-HealthHubBlazor-6f21d5b4-5fab-4622-8d86-e1d938998c6c</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.*" />
+    <PackageReference Include="MudBlazor" Version="7.*" />
+    <PackageReference Include="Extensions.MudBlazor.StaticInput" Version="2.*" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>
